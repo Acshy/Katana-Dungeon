@@ -11753,8 +11753,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2121379400688973701}
   - component: {fileID: 2121379400688973700}
-  - component: {fileID: 535028549}
-  - component: {fileID: 535028550}
   - component: {fileID: 1781168855}
   - component: {fileID: 327954372}
   m_Layer: 0
@@ -11812,40 +11810,6 @@ MonoBehaviour:
   interactManager: {fileID: 3669721645154041002}
   breakableObjManager: {fileID: 6111756682230740463}
   TestMode: 0
---- !u!114 &535028549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121379400688973703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47917127be59f4b7c9f9af0ef5303d16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iOSAppId: 5129808b12494e1d8180f761353798d6
-  androidAppId: 
-  debugAppId: 5129808b12494e1d8180f761353798d6
-  serverUrl: https://receiver.habby.mobi
-  networkType: 3
-  mode: 0
-  autoInit: 1
-  enableLog: 1
-  abTests: []
---- !u!114 &535028550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121379400688973703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 780ca163e0f98406993b515243a12cfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tGAnalytics: {fileID: 535028549}
 --- !u!114 &1781168855
 MonoBehaviour:
   m_ObjectHideFlags: 0

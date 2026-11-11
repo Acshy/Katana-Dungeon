@@ -30,7 +30,6 @@ public partial class ArchiveManager : TSingleton<ArchiveManager>
             ChangeSoul(-currentUpgrade.NeedExp);
             
             EventManager.Inst.DistributeEvent(EventName.HeroUpgradedeColorLevel,heroId);
-            EventManager.Inst.DistributeEvent(TGANames.HeroLevelUpgrade,heroId);
             SaveArchive();
             return ArchiveErrorType.NoError;
         }
@@ -82,7 +81,6 @@ public partial class ArchiveManager : TSingleton<ArchiveManager>
                     archiveData.GlobalData.HeroUpgradeDatas[currentUpgrade.HeroId].SetHeroUpgradeData(heroUpgradeData.Value);
                 
                 EventManager.Inst.DistributeEvent(EventName.HeroUpgradede);
-                EventManager.Inst.DistributeEvent(TGANames.HeroLevelUpgrade,heroId);
                 SaveArchive();
             }
             return ArchiveErrorType.NoError;

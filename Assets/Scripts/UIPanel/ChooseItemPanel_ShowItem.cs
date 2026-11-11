@@ -57,7 +57,6 @@ public class ChooseItemPanel_ShowItem : MonoBehaviour
     
     public void OnSkipBtnClick()
     {
-        EventManager.Inst.DistributeEvent(TGANames.BattleTreasureChestSkip);
         BattleManager.Inst.CurrentPlayer.roleItemController.AddItem( DataManager.Inst.ParsingItemObj(DataManager.Inst.GetItemScrObj(skipItemId)),
             isOk =>
             {

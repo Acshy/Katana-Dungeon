@@ -62,7 +62,6 @@ public class UI_ShopPanel_ShopItem : MonoBehaviour
                         });
                     }
                 });
-                EventManager.Inst.DistributeEvent(TGANames.BattleShopBuyItem,item.ID);
             }
             else
             {

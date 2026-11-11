@@ -128,14 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 535028549, guid: aaaae9200b46d68409a069f402e2dc4e, type: 3}
-      propertyPath: enableLog
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 535028549, guid: aaaae9200b46d68409a069f402e2dc4e, type: 3}
-      propertyPath: serverUrl
-      value: https://receiver.habby.mobix
-      objectReference: {fileID: 0}
     - target: {fileID: 2121379400688973700, guid: aaaae9200b46d68409a069f402e2dc4e,
         type: 3}
       propertyPath: EditorMode
@@ -201,6 +193,4 @@ PrefabInstance:
       propertyPath: m_Name
       value: Managers
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 535028549, guid: aaaae9200b46d68409a069f402e2dc4e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aaaae9200b46d68409a069f402e2dc4e, type: 3}

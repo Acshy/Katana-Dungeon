@@ -78,7 +78,6 @@ public class UI_MainPanel_BattlePanel : MonoBehaviour
     {
         chapterPanel.gameObject.SetActive(true);
         
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelOpenChapterPanel);
     }
 
     private float timer = 0.5f;

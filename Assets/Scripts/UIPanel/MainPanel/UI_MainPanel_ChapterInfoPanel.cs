@@ -32,7 +32,6 @@ public class UI_MainPanel_ChapterInfoPanel : MonoBehaviour
             });
         soulText.text = "X " + DataManager.Inst.ChapterTableDatas[chapterId].SoulCount;
         soulBtn.gameObject.SetActive(!ArchiveManager.Inst.ReceivedChapterFreeSoul(cpid));
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelPeekChapterInfo,chapterId);
         gameObject.SetActive(true);
     }
 
@@ -45,7 +44,6 @@ public class UI_MainPanel_ChapterInfoPanel : MonoBehaviour
     {
         ArchiveManager.Inst.ReceiveChapterFreeSoul(cpid);
         soulBtn.gameObject.SetActive(false);
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelGetChapterInfoSoul,cpid);
     }
 
 }

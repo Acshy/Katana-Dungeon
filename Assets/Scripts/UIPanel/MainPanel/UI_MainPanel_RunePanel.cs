@@ -108,7 +108,6 @@ public class UI_MainPanel_RunePanel : MonoBehaviour
 
 
         ArchiveManager.Inst.AddUnlockRuneItem(CurrentRuneUpgradeData.Value);
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelBuyRune);
     }
 
     public void UpdateUI()

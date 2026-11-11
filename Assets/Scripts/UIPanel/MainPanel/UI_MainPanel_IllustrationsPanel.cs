@@ -84,7 +84,6 @@ public class UI_MainPanel_IllustrationsPanel : MonoBehaviour
     private void OnEnable()
     {
         initBtnNumber();
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelOpenArtifactPanel);
     }
 
     private float _timer = 1;
@@ -111,7 +110,6 @@ public class UI_MainPanel_IllustrationsPanel : MonoBehaviour
         illustrationsPanelIcon.sprite = monsterSprite;
         illustrationsPanelName.text = "Monster";
         illustrationsPanelNumber.text = getEnemyCountStr();
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelOpenMonsterArtifactPanel);
     }
 
     public void OnArifactBtnClick()
@@ -121,7 +119,6 @@ public class UI_MainPanel_IllustrationsPanel : MonoBehaviour
         illustrationsPanelIcon.sprite = artifactSprite;
         illustrationsPanelName.text = "Artifact";
         illustrationsPanelNumber.text = getItemCountStr();
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelOpenItemArtifactPanel);
     }
 
     public void OnItemBuildBtnClick()
@@ -131,7 +128,6 @@ public class UI_MainPanel_IllustrationsPanel : MonoBehaviour
         illustrationsPanelIcon.sprite = artifactSprite;
         illustrationsPanelName.text = "UI_MainPanel_ItemBuild";
         illustrationsPanelNumber.text = getItemSchoolStr();
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelOpenItemBuildArtifactPanel);
     }
 
     List<EnemyInfoData> currentShowEnemy = new List<EnemyInfoData>();

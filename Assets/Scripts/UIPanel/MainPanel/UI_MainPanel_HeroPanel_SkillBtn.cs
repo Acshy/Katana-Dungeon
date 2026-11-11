@@ -19,7 +19,6 @@ public class UI_MainPanel_HeroPanel_SkillBtn : MonoBehaviour, IPointerDownHandle
         if (tweener != null)
             tweener.Kill();
         tweener = SkillInfo.DOFade(1, 0.2f);
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelPeekHeroSkillInfo);
     }
     public void OnPointerUp(PointerEventData eventData)
     {

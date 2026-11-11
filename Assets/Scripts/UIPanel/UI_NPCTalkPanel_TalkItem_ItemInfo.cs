@@ -34,7 +34,6 @@ public class UI_NPCTalkPanel_TalkItem_ItemInfo : MonoBehaviour
 
     public void OnItemClick()
     {
-        EventManager.Inst.DistributeEvent(TGANames.BattleTreasureChestItem,item.ID);
         
         BattleManager.Inst.CurrentPlayer.roleItemController.AddItem(item, isOk =>
         {

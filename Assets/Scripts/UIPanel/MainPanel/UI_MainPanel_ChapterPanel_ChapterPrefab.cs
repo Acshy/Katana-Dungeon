@@ -111,7 +111,6 @@ public class UI_MainPanel_ChapterPanel_ChapterPrefab : MonoBehaviour
     {
         UIManager.Inst.Open("InfoPanel",false,new ItemSchoolData(){Desc = "",ItemList = _data.UnlockItemIds,Name = "通关章节自动解锁"});
         // UIManager.Inst.Open("UnLockItemPanel",false,_data.UnlockItemIds,new Action(()=>{}));
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelPeekChapterItem,TabData.Id);
     }
 
     public void OnToggle(bool isOn)

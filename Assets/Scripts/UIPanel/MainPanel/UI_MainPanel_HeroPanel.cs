@@ -318,7 +318,6 @@ public class UI_MainPanel_HeroPanel : MonoBehaviour
         }
         UpdateBtnText();
         UpdateAllPrefab();
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelBuyHero,_currentSelectHeroPrefab.HeroData.HeroId);
     }
 
     private float timer = 0;
@@ -423,7 +422,6 @@ public class UI_MainPanel_HeroPanel : MonoBehaviour
         UpdateBtnText();
         chapterToggle.isOn = true;
         
-        EventManager.Inst.DistributeEvent(TGANames.MainPanelSelectHero,_currentSelectHeroPrefab.HeroData.HeroId);
     }
 
     private void UpdateBtnText()
