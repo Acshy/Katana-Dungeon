@@ -42,6 +42,9 @@ public sealed class StaleMaterialTextureCleanerWindow : EditorWindow
         EditorGUILayout.LabelField("References to properties missing from the current Shader", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("These are likely obsolete after a Shader change. Review each row before clearing it.", EditorStyles.wordWrappedMiniLabel);
 
+        if (GUILayout.Button("Scan and clean all invalid references", GUILayout.Width(280)))
+            ScanAndCleanAll();
+
         if (GUILayout.Button("Scan all materials for obsolete properties", GUILayout.Width(280)))
             ScanStaleProperties();
 
@@ -135,6 +138,24 @@ public sealed class StaleMaterialTextureCleanerWindow : EditorWindow
         status = "Scanned materials. Found " + staleReferences.Count + " assigned references whose property is absent from its current Shader.";
     }
 
+    private void ScanAndCleanAll()
+    {
+        ScanStaleProperties();
+        if (staleReferences.Count == 0)
+        {
+            EditorUtility.DisplayDialog("Material Cleanup", "No invalid texture references were found.", "OK");
+            return;
+        }
+
+        bool confirmed = EditorUtility.DisplayDialog(
+            "Clean invalid material references",
+            "Found " + staleReferences.Count + " assigned texture reference(s) whose properties are not declared by their current Shader. Clear them from all affected materials?",
+            "Clean All",
+            "Cancel");
+        if (confirmed)
+            ClearChecked(staleReferences);
+    }
+
     private void ScanTexture(Texture2D texture)
     {
         selectedTextureReferences.Clear();
@@ -199,6 +220,9 @@ public sealed class StaleMaterialTextureCleanerWindow : EditorWindow
     {
         List<TextureReference> selected = references.Where(reference => reference.Selected && reference.Material != null).ToList();
         int cleared = 0;
+        Undo.IncrementCurrentGroup();
+        int undoGroup = Undo.GetCurrentGroup();
+        Undo.SetCurrentGroupName("Clean invalid material texture references");
         foreach (TextureReference reference in selected)
         {
             SerializedObject serializedMaterial = new SerializedObject(reference.Material);
@@ -228,6 +252,7 @@ public sealed class StaleMaterialTextureCleanerWindow : EditorWindow
             cleared++;
         }
 
+        Undo.CollapseUndoOperations(undoGroup);
         AssetDatabase.SaveAssets();
         references.RemoveAll(reference => reference.Selected);
         status = "Cleared " + cleared + " material texture reference(s). Changes can be undone with Ctrl+Z.";

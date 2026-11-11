@@ -1,5 +1,5 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!114 &-5425117734058455402
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_66AB8055:
-        m_Texture: {fileID: 2800000, guid: 8a4add7ab8c7d29488fb21cd51b8e584, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_6A32307F:
