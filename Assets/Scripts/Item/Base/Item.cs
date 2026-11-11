@@ -14,7 +14,7 @@ public class ItemEffectTrigger
 {
     public TriggerType triggerType = TriggerType.Times;
 //    public Action Trigger = delegate {  };
-    public ItemGroup Root;
+    [NonSerialized] public ItemGroup Root;
     protected RoleItemController roleItemController;
     public ItemEffectTrigger(TriggerType type)
     {
@@ -51,7 +51,7 @@ public struct ItemEffectTriggerValue
 [Serializable]
 public class ItemEffect
 {
-    public ItemGroup Root;
+    [NonSerialized] public ItemGroup Root;
     protected RoleController roleController;
     //触发
     public virtual void TriggerEffect(ItemEffectTriggerValue? value)
@@ -87,7 +87,7 @@ public class ItemGroup
     public string Desc;
     public ItemEffectTrigger effectTrigger;
     public ItemEffect itemEffect;
-    public Item item;
+    [NonSerialized] public Item item;
     private RoleItemController Rpe;
     public virtual void Awake(RoleItemController rpe)
     {

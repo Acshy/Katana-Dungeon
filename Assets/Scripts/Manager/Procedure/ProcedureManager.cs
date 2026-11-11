@@ -34,6 +34,19 @@ public class ProcedureManager : MonoBehaviour
         CurrentProcedure.Start();
     }
 
+#if UNITY_EDITOR
+    public void RestartProcedureForEditor(IProcedure procedure)
+    {
+        if (CurrentProcedure != null)
+        {
+            CurrentProcedure.End();
+        }
+
+        CurrentProcedure = procedure;
+        CurrentProcedure.Start();
+    }
+#endif
+
     private void Update()
     {
         if (CurrentProcedure != null)

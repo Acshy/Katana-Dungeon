@@ -43,6 +43,13 @@ public partial class ArchiveManager : TSingleton<ArchiveManager>
     {
         SaveManager.Inst.SaveArchive<ArchiveData_1_4_0>(ArchiveName, archiveData);
     }
+
+#if UNITY_EDITOR
+    public void ReloadArchiveForEditor()
+    {
+        archiveData = SaveManager.Inst.LoadArchive<ArchiveData_1_4_0>(ArchiveName);
+    }
+#endif
     public void SaveBattleArchive()
     {
         if (BattleManager.Inst.CurrentPlayer == null)
@@ -433,7 +440,10 @@ public enum ArchiveErrorType
 [Serializable]
 public class ChapterClearanceData
 {
+    [Sirenix.OdinInspector.LabelText("最高进度"), UnityEngine.Tooltip("章节历史最高通关进度；达到 99 通常表示完成章节。")]
     public int Schedule;
+    [Sirenix.OdinInspector.LabelText("通关次数"), UnityEngine.Tooltip("章节完成次数。")]
     public int Count;
+    [Sirenix.OdinInspector.LabelText("到达层数"), UnityEngine.Tooltip("章节中到达过的最高关卡层数。")]
     public int LastLevel;//最后一层到哪里
 }

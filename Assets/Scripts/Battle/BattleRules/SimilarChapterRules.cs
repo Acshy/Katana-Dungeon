@@ -109,6 +109,89 @@ public abstract class SimilarChapterRules:BaseRules
     public int CurrentLevelIndex => RuntimeData.CurrentLevelIndex;
     public int CurrentRoomIndex => RuntimeData.CurrentRoomIndex;
     public bool IsTutorial => RuntimeData.IsTutorial;
+
+    public IEnumerator GMJumpToLevel(int targetLevel)
+    {
+        int targetIndex = targetLevel - 1;
+        if (!BattleManager.Inst.GameIsRuning || !IsLoadOver || targetIndex < RuntimeData.CurrentLevelIndex ||
+            targetIndex >= CurrentChapterStructData.RoomList.Count)
+        {
+            Debug.LogError("GM：目标关卡无效；只能跳到当前关卡或之后已生成的关卡");
+            yield break;
+        }
+
+        while (RuntimeData.CurrentLevelIndex < targetIndex)
+        {
+            int previousLevel = RuntimeData.CurrentLevelIndex;
+            int previousRoom = RuntimeData.CurrentRoomIndex;
+            EventManager.Inst.DistributeEvent(EventName.EnterLastDoor);
+
+            float elapsed = 0f;
+            while (RuntimeData.CurrentLevelIndex == previousLevel && RuntimeData.CurrentRoomIndex == previousRoom && elapsed < 20f)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                yield return null;
+            }
+
+            if (RuntimeData.CurrentLevelIndex == previousLevel && RuntimeData.CurrentRoomIndex == previousRoom)
+            {
+                Debug.LogError("GM：跳关等待超时，未能进入下一个房间");
+                yield break;
+            }
+
+            elapsed = 0f;
+            while (elapsed < 20f)
+            {
+                RoomController room = CurrentRoom;
+                if (room != null && room.CurrentRoomData.CurrentFloorIndex == RuntimeData.CurrentLevelIndex &&
+                    room.CurrentRoomData.CurrentRoomIndex == RuntimeData.CurrentRoomIndex)
+                    break;
+                elapsed += Time.unscaledDeltaTime;
+                yield return null;
+            }
+
+            yield return null;
+        }
+
+        Debug.Log($"GM：已跳转至第 {targetLevel} 关");
+    }
+
+    public void GMReplaceCurrentHero(int heroId)
+    {
+        if (CurrentPlayer == null || !DataManager.Inst.HeroDatas.ContainsKey(heroId))
+        {
+            Debug.LogError("GM：当前玩家不存在或英雄 ID 无效");
+            return;
+        }
+
+        RuntimeBaseData.SetHeroData(heroId);
+        ArchiveManager.Inst.ArchiveData.GlobalData.LastSelectHeroID = heroId;
+        if (IsArchiveBattle && ArchiveManager.Inst.ArchiveData.BattleData?.PlayerData != null)
+            ArchiveManager.Inst.ArchiveData.BattleData.PlayerData.HeroId = heroId;
+        ArchiveManager.Inst.SaveArchive();
+
+        InitPlayer();
+        BattleManager.Inst.StartCoroutine(GMReinitializePlayer(heroId));
+    }
+
+    private IEnumerator GMReinitializePlayer(int heroId)
+    {
+        float elapsed = 0f;
+        while ((CurrentPlayer == null || CurrentPlayer.UniqueID != heroId) && elapsed < 20f)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        if (CurrentPlayer == null || CurrentPlayer.UniqueID != heroId)
+        {
+            Debug.LogError("GM：替换英雄后等待玩家创建超时");
+            yield break;
+        }
+
+        InitPlayerItem();
+        Debug.Log($"GM：当前英雄已替换为 {DataManager.Inst.GetHeroData(heroId).HeroName} ({heroId})");
+    }
     
     #endregion
     
