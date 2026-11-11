@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 4160359257
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0af9b69e3013146d639e512c0419bda0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/Table/CSV_MoveInfo.csv
+- Assets/AssetsPackage/Table/CSV_EventDatas.csv
+- Assets/AssetsPackage/Table/CSV_Items.csv
+- Assets/AssetsPackage/Table/CSV_RoomPrefabs.csv
+- Assets/AssetsPackage/Table/CSV_RuneSlotData.csv
+- Assets/AssetsPackage/Table/CSV_HeroUpgradeColor.csv
+- Assets/AssetsPackage/Table/CSV_ChapterDatas.csv
+- Assets/AssetsPackage/Table/CSV_ItemSchool.csv
+- Assets/AssetsPackage/Table/CSV_ExpLevel.csv
+- Assets/AssetsPackage/Table/CSV_HeroData.csv
+- Assets/AssetsPackage/Table/CSV_UnLockItem.csv
+- Assets/AssetsPackage/Table/CSV_Difficulty.csv
+- Assets/AssetsPackage/Table/CSV_EnemyInfo.csv
+- Assets/AssetsPackage/Table/CSV_Language_EditVersion.csv
+- Assets/AssetsPackage/Table/CSV_RoomTipsInfo.csv
+- Assets/AssetsPackage/Table/CSV_MissionData.csv
+- Assets/AssetsPackage/Table/CSV_RoomContent.csv
+- Assets/AssetsPackage/Table/CSV_MainSceneStore.csv
+- Assets/AssetsPackage/Table/CSV_HeroUpgrade.csv
+- Assets/AssetsPackage/Table/CSV_Language.csv
+- Assets/AssetsPackage/Table/CSV_ChapterItemUnLock.csv
+Dependencies: []

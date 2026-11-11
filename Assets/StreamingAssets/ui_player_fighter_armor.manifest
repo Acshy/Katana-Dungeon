@@ -1,0 +1,76 @@
+ManifestFileVersion: 0
+CRC: 2775535910
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 825e07304d7dd9895cc05ebe90f5bad4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bd0c2197b9a6c1c4c392c4f383263734
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9ac8d30c6a0d9642a11e5be4c440740, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 420569b2d76c077489f8ce5a01adcdf3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c00913cf1abe7fd44ae9e4d04df117c0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Arts/3rd_Party/Models/PolygonDungeon/Prefabs/Characters/PolygonFantasyRivals/Models/SM_Base_Mechanical_01.fbx
+- Assets/Arts/3rd_Party/Models/PolygonDungeon/Prefabs/Characters/PolygonFantasyRivals/Prefabs/Props/SM_Base_Mechanical_01.prefab
+- Assets/Arts/Animation/Player/ShieldWarrior/Anim_Fighter_Armor_Attack1.anim
+- Assets/Arts/Animation/Player/ShieldWarrior/Anim_Fighter_Armor_Attack3.anim
+- Assets/AssetsPackage/PlayerPrefabs/UI_Player_Fighter_Armor.prefab
+- Assets/Arts/AnimatorController/Player/Animator_UI_Fighter_Armor.controller
+Dependencies:
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_goblingiant
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonghost
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonking
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_goblinarcher
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonarcher
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonbomber
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_fighter_armor
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_fighter_shield
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_saber_ninja
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/playerschoolselection

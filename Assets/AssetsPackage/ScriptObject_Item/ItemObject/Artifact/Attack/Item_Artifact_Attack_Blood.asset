@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a15225eedb3484489b17eb7237d2ba, type: 3}
+  m_Name: Item_Artifact_Attack_Blood
+  m_EditorClassIdentifier: 
+  DefaultUnLock: 1
+  ChapterId: 2
+  LevelId: 3
+  RoomId: 0
+  Icon: {fileID: 21300000, guid: bbb2c4fe510e82948b6a2f96d6d0b110, type: 3}
+  Name: Item_Artifact_Attack_Blood
+  Describe: Item_Artifact_Attack_Blood_Des
+  ItemType: 1
+  ArtifactType: 2
+  CanUseTimes: 0
+  ItemUseType: 0
+  CoolingTime: 0
+  itemColorType: 1
+  isUnique: 1
+  VisualObj: {fileID: 7023464862073394683, guid: 99edc6416b766ce48a2405bda496f6b6,
+    type: 3}
+  VisualObjSlot: 3
+  effects:
+  - {fileID: 11400000, guid: 607d31ededc9178448e3180360d73403, type: 2}
+  - {fileID: 11400000, guid: 5e277420d47924544983b806699c8233, type: 2}

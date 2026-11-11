@@ -1,0 +1,55 @@
+﻿using BehaviorDesigner.Runtime;
+using BehaviorDesigner.Runtime.Tasks;
+using DG.Tweening;
+using UnityEngine;
+
+[TaskCategory("BehaviorExpansion/MyAI")]
+[TaskDescription("角色朝向玩家.")]
+public class AIActionMoveToTarget : AIAction
+{
+    [BehaviorDesigner.Runtime.Tasks.Tooltip("朝向玩家.")]
+
+    float RotSpeed = 0;
+    public SharedFloat StopDistance = 1;
+    public override void OnAwake()
+    {
+        base.OnAwake();
+        RotSpeed = (RoleController as EnemyController).GetRotateSpeed();
+    }
+    public override TaskStatus OnUpdate()
+    {
+        if (Target == null)
+        {
+            Target = BattleManager.Inst.CurrentPlayer;
+            return TaskStatus.Failure;
+        }
+        if (RotSpeed < 0)
+        {
+            RotSpeed = (RoleController as EnemyController).GetRotateSpeed();
+        }
+
+        Vector3 dir = Target.transform.position - gameObject.transform.position;
+        
+        if (Vector3.Distance(transform.position, Target.transform.position)< StopDistance.Value)
+        {
+            RoleController.InputMove(new Vector2(0, 0));
+            return TaskStatus.Success;
+        }
+
+        else
+        {
+            if (!RoleController.IsFreeze)
+            {
+                RoleController.Animator.transform.forward = Vector3.Lerp(RoleController.Animator.transform.forward, dir, RotSpeed * Time.deltaTime);
+                Vector3 fwd = RoleController.Animator.transform.forward;
+                RoleController.InputMove(new Vector2(fwd.x, fwd.z).normalized);
+            }
+            return TaskStatus.Running;
+        }
+
+
+       
+
+    }
+
+}

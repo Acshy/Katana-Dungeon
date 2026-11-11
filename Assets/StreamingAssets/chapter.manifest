@@ -1,0 +1,95 @@
+ManifestFileVersion: 0
+CRC: 625754708
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5eb929c1536f572935e5c80241c4da55
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6fdab5bb65f61f665f99833bf4e1569b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8145e4002c84b284f8f1c34fe0ae4707, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a26d7d4218f46264ebffe1048d4f8065, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f96664313cb2cd4a84ce56927eb4684, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9367d066b5d757244a2f338f18e3df83, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25e99eb7207bb07448fb67544640a06c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 60c14f181ff47404d9eeb819837e6270, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5af12bb72f51f5478b05586acc956e5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 20a1e57f42260e247874ab55c4eca4a9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_4B.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_6.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Chapter6.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_2B.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Chapter4.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_6A.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Tutorial.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Skill_DarkScene.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_4.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_8.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_3A.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_5.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_1B.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_1A.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Chapter1.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Events.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_3.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_3B.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Chapter2.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_7.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_9.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Chapter5.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Chapter_Chapter3.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_1.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_2.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_4A.asset
+- Assets/AssetsPackage/ChapterDatas/ChapterData_Adventure.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_AdventureEntrance.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_2A.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Adventure_10.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_5B.asset
+- Assets/AssetsPackage/ChapterDatas/EnvironmentData/Environment_Chapter_5A.asset
+Dependencies:
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_goblingiant
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonghost
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonking
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonknight
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonknightshield_tutorial
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_goblinarcher
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_goblinfighter
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonarcher
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonbomber
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonghost
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonknight
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonmaster
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonzombie
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv1_goblinarcher
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv1_goblinfighter
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv1_skeletonghost
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv1_skeletonwheel
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv1_skeletonzombieblue
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv2_goblinshaman
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv2_skeletonbomber
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv2_skeletoncoffin
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv2_skeletonexplosionself
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv3_goblingaint
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv3_skeletonknighthammer
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_lv3_skeletonknightshield
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/npc
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/roomprefab

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 53802425
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af1581e442c34b47599ce126952bfa56
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72e837a84ad7c5efa6fecd55ebff49b5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a5a92ec89de1aec4281ea738f0693ff1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0799937f378afc842a4697ae28035008, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/CommonFX/VFX_Enemy_StrongFire.prefab
+- Assets/AssetsPackage/CommonFX/VFX_PlayerLand.prefab
+Dependencies:
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonghost
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonking
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonknight
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonknightshield_tutorial
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_saber_samurai

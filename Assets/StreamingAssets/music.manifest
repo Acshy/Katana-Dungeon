@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2705127295
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67a65e5a4bb74f92677fffebec6a4370
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/Music/CalmBGM.mp3
+- Assets/AssetsPackage/Music/FightBGM.mp3
+Dependencies: []

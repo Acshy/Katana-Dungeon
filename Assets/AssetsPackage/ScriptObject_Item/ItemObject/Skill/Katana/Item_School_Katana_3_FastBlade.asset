@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a15225eedb3484489b17eb7237d2ba, type: 3}
+  m_Name: Item_School_Katana_3_FastBlade
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: 3be87f813c3544326b8bc884a6ef0e16, type: 3}
+  Name: "\u98DE\u901F\u5200\u6CD5"
+  Describe: "\u4EE5\u654C\u4EBA\u770B\u4E0D\u89C1\u7684\u901F\u5EA6\u5FEB\u901F\u51FA\u5200\uFF0C\u6240\u4F5C\u4E00\u5207\u90FD\u4E3A\u4E86\u8FFD\u6C42\u6781\u81F4\u7684\u901F\u5EA6"
+  ItemType: 3
+  ArtifactType: 0
+  CanUseTimes: -1
+  ItemUseType: 0
+  CoolingTime: 20
+  QualityType: 0
+  isUnique: 1
+  VisualObj: {fileID: 0}
+  VisualObjSlot: 0
+  effects:
+  - {fileID: 11400000, guid: 091c47a4ac303ad4e886c4525c2d6498, type: 2}
+  - {fileID: 11400000, guid: fba388fef5dde34439d3d180f5b76e25, type: 2}

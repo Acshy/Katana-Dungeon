@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 841282346
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d520ccf9d737456b3ae081715a2cb0e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9087d0869d340fd99b37afb598fe665c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9ac8d30c6a0d9642a11e5be4c440740, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 735c4b429d71f0f4792dbbfa97644d5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 420569b2d76c077489f8ce5a01adcdf3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48f5c50e371c2c34892e6104fbb54ae2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c00913cf1abe7fd44ae9e4d04df117c0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Arts/3rd_Party/Models/PolygonDungeon/Prefabs/Characters/PolygonFantasyRivals/Prefabs/Props/SM_Base_Dirt_01.prefab
+- Assets/Arts/3rd_Party/Models/PolygonDungeon/Prefabs/Characters/PolygonFantasyRivals/Models/SM_Base_Dirt_01.fbx
+- Assets/AssetsPackage/PlayerPrefabs/UI_Player_Saber_WhirlWind.prefab
+- Assets/Arts/AnimatorController/Player/Animator_UI_Saber_WhirlWind.controller
+Dependencies:
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_goblingiant
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonarcher
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonbomber
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_skeletonknight
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_saber_ninja
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_saber_whirlwind

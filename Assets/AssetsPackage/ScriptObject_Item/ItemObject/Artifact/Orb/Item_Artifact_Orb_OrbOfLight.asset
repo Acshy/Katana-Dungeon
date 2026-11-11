@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a15225eedb3484489b17eb7237d2ba, type: 3}
+  m_Name: Item_Artifact_Orb_OrbOfLight
+  m_EditorClassIdentifier: 
+  DefaultUnLock: 1
+  ChapterId: 0
+  LevelId: 0
+  RoomId: 0
+  Icon: {fileID: 21300000, guid: 9454deed7f6123a489a268664451f29a, type: 3}
+  Name: Item_Orb_OrbOfLight
+  Describe: Item_Orb_OrbOfLight_Des
+  ItemType: 1
+  ArtifactType: 11
+  CanUseTimes: 0
+  ItemUseType: 0
+  CoolingTime: 0
+  itemColorType: 3
+  isUnique: 1
+  VisualObj: {fileID: 0}
+  VisualObjSlot: 0
+  effects:
+  - {fileID: 11400000, guid: b90feee7a9d9c61408b35db2dc1e844e, type: 2}

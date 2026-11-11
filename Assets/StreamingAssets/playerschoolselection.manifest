@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 1378264663
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4127c76bfa9478a9457d50164fdf419c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 700cce780156dfdd5fdd2ee7678caad4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldColor3.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldColor4.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/SamuraiColor4.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldColor1.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/PaladinColor1.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldSchoolIcon2.png
+- Assets/AssetsPackage/PlayerSchoolSelection/KatanaSchoolIcon1.png
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldSchoolIcon4.png
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldColor2.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/BoxerColor1.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/KatanaSchoolIcon4.png
+- Assets/AssetsPackage/PlayerSchoolSelection/SamuraiColor2.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/KatanaSchoolIcon2.png
+- Assets/AssetsPackage/PlayerSchoolSelection/KatanaSchoolIcon3.png
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldSchoolIcon1.png
+- Assets/AssetsPackage/PlayerSchoolSelection/BoxerColor2.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/SamuraiColor1.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/ShieldSchoolIcon3.png
+- Assets/AssetsPackage/PlayerSchoolSelection/PaladinColor3.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/BoxerColor3.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/SamuraiColor3.mat
+- Assets/AssetsPackage/PlayerSchoolSelection/PaladinColor2.mat
+Dependencies:
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_goblingiant
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_fighter_armor
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_fighter_boxer
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_fighter_paladin
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/player_fighter_shield
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/ui_player_fighter_paladin

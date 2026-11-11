@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2153280639
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a3b598c3f7d81fed02791abf7e37067
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_ShieldCounterStorm.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_ShieldCounterStorm.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_WhirlWindUltimate.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_RoninCharge.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_SamuraiCharge.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_BladeStorm.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_ShieldGroundStrike.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_NinjaCharge.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_WaveRelease.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_Yishan.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_PaladinCharge.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_SwordStorm.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_BladeStorm.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_WaveRelease.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_SpeedExp.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_PunchStorm.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_HolyLight.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_PaladinCharge.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_SpeedExp.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_RoninUltimate.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_RoninUltimate.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_BoxerCharge.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_Yishan.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_PunchStorm.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_SamuraiCharge.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_HolyLight.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_BoxerCharge.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_RoninCharge.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_ShieldGroundStrike.png
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_WhirlWindUltimate.psd
+- Assets/Arts/Textures/UISprites/SkillIcons/Tex_UI_SkillIcon_NinjaCharge.psd
+Dependencies: []

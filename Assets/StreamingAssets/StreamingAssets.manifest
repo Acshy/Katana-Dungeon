@@ -1,0 +1,817 @@
+ManifestFileVersion: 0
+CRC: 3733263242
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assetbundleconfig
+      Dependencies: {}
+    Info_1:
+      Name: item
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: prefabs
+        Dependency_3: skillicons
+        Dependency_4: mainpanel
+        Dependency_5: enemy_boss_goblingiant
+        Dependency_6: enemy_boss_skeletonghost
+        Dependency_7: enemy_boss_skeletonking
+        Dependency_8: enemy_boss_skeletonknight
+        Dependency_9: enemy_elite_skeletonbomber
+        Dependency_10: enemy_elite_skeletonghost
+        Dependency_11: enemy_elite_skeletonknight
+        Dependency_12: enemy_elite_skeletonmaster
+        Dependency_13: enemy_lv2_skeletoncoffin
+        Dependency_14: enemy_lv3_skeletonknighthammer
+        Dependency_15: -temp_enemy_creature_slime
+        Dependency_16: player_fighter_shield
+        Dependency_17: player_fighter_armor
+        Dependency_18: player_fighter_boxer
+        Dependency_19: player_fighter_paladin
+        Dependency_20: player_saber_ronin
+        Dependency_21: player_saber_whirlwind
+    Info_2:
+      Name: table
+      Dependencies: {}
+    Info_3:
+      Name: npc
+      Dependencies:
+        Dependency_0: item
+    Info_4:
+      Name: buff
+      Dependencies:
+        Dependency_0: enemy_boss_goblingiant
+        Dependency_1: enemy_boss_skeletonking
+        Dependency_2: enemy_boss_skeletonknight
+        Dependency_3: enemy_elite_skeletonmaster
+        Dependency_4: enemy_lv3_goblingaint
+        Dependency_5: enemy_lv2_goblintotem
+        Dependency_6: player_fighter_shield
+        Dependency_7: player_fighter_armor
+        Dependency_8: player_fighter_boxer
+        Dependency_9: player_saber_ninja
+    Info_5:
+      Name: attackinfo
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: chapter
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+        Dependency_5: enemy_elite_skeletonarcher
+        Dependency_6: enemy_elite_skeletonghost
+        Dependency_7: -temp_enemy_creature_slime
+        Dependency_8: player_fighter_shield
+        Dependency_9: player_fighter_armor
+        Dependency_10: player_saber_ninja
+        Dependency_11: player_saber_ronin
+    Info_6:
+      Name: playerschoolselection
+      Dependencies:
+        Dependency_0: enemy_boss_goblingiant
+        Dependency_1: player_fighter_shield
+        Dependency_2: player_fighter_armor
+        Dependency_3: player_fighter_boxer
+        Dependency_4: player_fighter_paladin
+        Dependency_5: ui_player_fighter_paladin
+    Info_7:
+      Name: feedbacklib
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknight
+        Dependency_5: enemy_elite_goblinarcher
+    Info_8:
+      Name: roomprefab
+      Dependencies:
+        Dependency_0: item
+        Dependency_1: npc
+        Dependency_2: attackinfo
+        Dependency_3: prefabs
+        Dependency_4: battleoverpanel
+        Dependency_5: firepanel
+        Dependency_6: mainpanel
+        Dependency_7: enemy_boss_goblingiant
+        Dependency_8: enemy_boss_skeletonghost
+        Dependency_9: enemy_boss_skeletonking
+        Dependency_10: enemy_boss_skeletonknight
+        Dependency_11: enemy_boss_skeletonknightshield_tutorial
+        Dependency_12: enemy_elite_skeletonbomber
+        Dependency_13: enemy_elite_skeletoncoffin
+        Dependency_14: enemy_elite_skeletonghost
+        Dependency_15: enemy_elite_skeletonknight
+        Dependency_16: enemy_elite_skeletonmaster
+        Dependency_17: enemy_lv1_skeletonwheel
+        Dependency_18: enemy_lv1_skeletonzombieblue
+        Dependency_19: enemy_lv2_skeletonbomber
+        Dependency_20: enemy_lv3_skeletonknighthammer
+        Dependency_21: player_fighter_shield
+        Dependency_22: player_fighter_armor
+        Dependency_23: player_fighter_boxer
+        Dependency_24: player_fighter_paladin
+        Dependency_25: player_saber_ninja
+    Info_9:
+      Name: font
+      Dependencies: {}
+    Info_10:
+      Name: prefabs
+      Dependencies:
+        Dependency_0: npc
+        Dependency_1: attackinfo
+        Dependency_2: playerschoolselection
+        Dependency_3: battleoverpanel
+        Dependency_4: battlepanel
+        Dependency_5: mainpanel
+        Dependency_6: enemy_boss_goblingiant
+        Dependency_7: enemy_boss_skeletonghost
+        Dependency_8: enemy_boss_skeletonking
+        Dependency_9: enemy_boss_skeletonknight
+        Dependency_10: enemy_boss_skeletonknightshield_tutorial
+        Dependency_11: enemy_elite_skeletonarcher
+        Dependency_12: enemy_elite_skeletonbomber
+        Dependency_13: enemy_elite_skeletoncoffin
+        Dependency_14: enemy_elite_skeletonghost
+        Dependency_15: enemy_elite_skeletonknight
+        Dependency_16: enemy_elite_skeletonmaster
+        Dependency_17: enemy_lv2_goblintotem
+        Dependency_18: player_fighter_shield
+        Dependency_19: player_fighter_armor
+        Dependency_20: player_fighter_boxer
+        Dependency_21: player_fighter_paladin
+        Dependency_22: player_saber_ninja
+        Dependency_23: player_saber_ronin
+        Dependency_24: player_saber_samurai
+        Dependency_25: player_saber_whirlwind
+        Dependency_26: ui_player_saber_ronin
+    Info_11:
+      Name: chapter
+      Dependencies:
+        Dependency_0: npc
+        Dependency_1: roomprefab
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+        Dependency_5: enemy_boss_skeletonknight
+        Dependency_6: enemy_boss_skeletonknightshield_tutorial
+        Dependency_7: enemy_elite_goblinarcher
+        Dependency_8: enemy_elite_goblinfighter
+        Dependency_9: enemy_elite_skeletonarcher
+        Dependency_10: enemy_elite_skeletonbomber
+        Dependency_11: enemy_elite_skeletonghost
+        Dependency_12: enemy_elite_skeletonknight
+        Dependency_13: enemy_elite_skeletonmaster
+        Dependency_14: enemy_elite_skeletonzombie
+        Dependency_15: enemy_lv1_goblinarcher
+        Dependency_16: enemy_lv1_goblinfighter
+        Dependency_17: enemy_lv1_skeletonghost
+        Dependency_18: enemy_lv1_skeletonwheel
+        Dependency_19: enemy_lv1_skeletonzombieblue
+        Dependency_20: enemy_lv2_goblinshaman
+        Dependency_21: enemy_lv2_skeletonbomber
+        Dependency_22: enemy_lv2_skeletoncoffin
+        Dependency_23: enemy_lv2_skeletonexplosionself
+        Dependency_24: enemy_lv3_goblingaint
+        Dependency_25: enemy_lv3_skeletonknighthammer
+        Dependency_26: enemy_lv3_skeletonknightshield
+    Info_12:
+      Name: commonfx
+      Dependencies:
+        Dependency_0: enemy_boss_skeletonghost
+        Dependency_1: enemy_boss_skeletonking
+        Dependency_2: enemy_boss_skeletonknight
+        Dependency_3: enemy_boss_skeletonknightshield_tutorial
+        Dependency_4: player_saber_samurai
+    Info_13:
+      Name: music
+      Dependencies: {}
+    Info_14:
+      Name: enemyicon
+      Dependencies: {}
+    Info_15:
+      Name: mat
+      Dependencies: {}
+    Info_16:
+      Name: heroicon
+      Dependencies: {}
+    Info_17:
+      Name: skillicons
+      Dependencies: {}
+    Info_18:
+      Name: buildicon
+      Dependencies: {}
+    Info_19:
+      Name: chaptercovers
+      Dependencies: {}
+    Info_20:
+      Name: adventuremainscene
+      Dependencies:
+        Dependency_0: enemy_boss_goblingiant
+        Dependency_1: enemy_boss_skeletonking
+        Dependency_2: player_fighter_armor
+    Info_21:
+      Name: battleoverpanel
+      Dependencies:
+        Dependency_0: font
+    Info_22:
+      Name: battlepanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: skillicons
+        Dependency_2: battleoverpanel
+    Info_23:
+      Name: chooseitempanel
+      Dependencies:
+        Dependency_0: font
+    Info_24:
+      Name: firepanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: chooseitempanel
+    Info_25:
+      Name: infopanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+    Info_26:
+      Name: leveluppanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+    Info_27:
+      Name: mainpanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+        Dependency_2: battlepanel
+        Dependency_3: chooseitempanel
+        Dependency_4: firepanel
+        Dependency_5: infopanel
+        Dependency_6: leveluppanel
+    Info_28:
+      Name: nextlevelpanel
+      Dependencies:
+        Dependency_0: battleoverpanel
+        Dependency_1: mainpanel
+    Info_29:
+      Name: nextlevelpanel_adventure
+      Dependencies:
+        Dependency_0: battleoverpanel
+        Dependency_1: mainpanel
+        Dependency_2: nextlevelpanel
+    Info_30:
+      Name: npctalkpanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: chooseitempanel
+    Info_31:
+      Name: pausepanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+        Dependency_2: battlepanel
+        Dependency_3: chooseitempanel
+        Dependency_4: mainpanel
+    Info_32:
+      Name: promotepanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+        Dependency_2: leveluppanel
+    Info_33:
+      Name: replaceitempanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+    Info_34:
+      Name: resurrectionpanel
+      Dependencies:
+        Dependency_0: battleoverpanel
+    Info_35:
+      Name: shoppanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+        Dependency_2: chooseitempanel
+        Dependency_3: mainpanel
+    Info_36:
+      Name: toturialpanel
+      Dependencies:
+        Dependency_0: battlepanel
+    Info_37:
+      Name: unlockheropanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+        Dependency_2: leveluppanel
+        Dependency_3: mainpanel
+    Info_38:
+      Name: unlockitempanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: chooseitempanel
+        Dependency_2: mainpanel
+    Info_39:
+      Name: yesornopanel
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: battleoverpanel
+        Dependency_2: chooseitempanel
+        Dependency_3: mainpanel
+        Dependency_4: npctalkpanel
+        Dependency_5: replaceitempanel
+    Info_40:
+      Name: enemy_boss_goblingiant
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+    Info_41:
+      Name: enemy_boss_skeletonghost
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+    Info_42:
+      Name: enemy_boss_skeletonking
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+    Info_43:
+      Name: enemy_boss_skeletonknight
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+    Info_44:
+      Name: enemy_boss_skeletonknightshield_tutorial
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknight
+    Info_45:
+      Name: enemy_elite_goblinarcher
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+    Info_46:
+      Name: enemy_elite_goblinfighter
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_elite_goblinarcher
+    Info_47:
+      Name: enemy_elite_skeletonarcher
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+    Info_48:
+      Name: enemy_elite_skeletonbomber
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonking
+        Dependency_3: enemy_boss_skeletonknight
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+        Dependency_5: enemy_elite_goblinfighter
+    Info_49:
+      Name: enemy_elite_skeletoncoffin
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+    Info_50:
+      Name: enemy_elite_skeletonghost
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+        Dependency_5: enemy_boss_skeletonknight
+        Dependency_6: enemy_boss_skeletonknightshield_tutorial
+        Dependency_7: enemy_elite_skeletonarcher
+        Dependency_8: enemy_elite_skeletoncoffin
+    Info_51:
+      Name: enemy_elite_skeletonknight
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+        Dependency_5: enemy_boss_skeletonknight
+        Dependency_6: enemy_boss_skeletonknightshield_tutorial
+        Dependency_7: enemy_elite_skeletonbomber
+        Dependency_8: enemy_elite_skeletoncoffin
+    Info_52:
+      Name: enemy_elite_skeletonmaster
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknight
+        Dependency_5: enemy_boss_skeletonknightshield_tutorial
+        Dependency_6: enemy_elite_skeletonghost
+    Info_53:
+      Name: enemy_elite_skeletonzombie
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+        Dependency_5: enemy_elite_goblinfighter
+        Dependency_6: enemy_elite_skeletonbomber
+        Dependency_7: enemy_elite_skeletoncoffin
+        Dependency_8: enemy_elite_skeletonghost
+    Info_54:
+      Name: enemy_lv1_goblinarcher
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_elite_goblinarcher
+    Info_55:
+      Name: enemy_lv1_goblinfighter
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonking
+        Dependency_3: enemy_elite_goblinfighter
+    Info_56:
+      Name: enemy_lv1_skeletonghost
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+        Dependency_5: enemy_boss_skeletonknight
+        Dependency_6: enemy_elite_skeletonghost
+    Info_57:
+      Name: enemy_lv1_skeletonwheel
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonknight
+        Dependency_4: enemy_elite_goblinarcher
+        Dependency_5: enemy_elite_skeletoncoffin
+    Info_58:
+      Name: enemy_lv1_skeletonzombieblue
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonking
+        Dependency_3: enemy_elite_skeletonzombie
+    Info_59:
+      Name: enemy_lv2_goblinshaman
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknight
+        Dependency_5: enemy_elite_goblinfighter
+        Dependency_6: enemy_elite_skeletoncoffin
+        Dependency_7: enemy_lv1_skeletonwheel
+    Info_60:
+      Name: enemy_lv2_skeletonbomber
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknight
+        Dependency_5: enemy_elite_goblinfighter
+        Dependency_6: enemy_elite_skeletonbomber
+        Dependency_7: enemy_elite_skeletoncoffin
+    Info_61:
+      Name: enemy_lv2_skeletoncoffin
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_elite_skeletoncoffin
+    Info_62:
+      Name: enemy_lv2_skeletonexplosionself
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonking
+        Dependency_3: enemy_boss_skeletonknight
+        Dependency_4: enemy_elite_goblinfighter
+        Dependency_5: enemy_elite_skeletonbomber
+        Dependency_6: enemy_lv1_skeletonwheel
+        Dependency_7: enemy_lv2_skeletonbomber
+    Info_63:
+      Name: enemy_lv3_goblingaint
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: prefabs
+        Dependency_3: enemy_boss_goblingiant
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+        Dependency_5: enemy_lv1_skeletonwheel
+    Info_64:
+      Name: enemy_lv3_skeletonknighthammer
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: prefabs
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+        Dependency_5: enemy_elite_skeletoncoffin
+    Info_65:
+      Name: enemy_lv3_skeletonknightshield
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonking
+        Dependency_3: enemy_boss_skeletonknight
+        Dependency_4: enemy_boss_skeletonknightshield_tutorial
+        Dependency_5: enemy_lv1_skeletonwheel
+    Info_66:
+      Name: -temp_enemy_creature_bat
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+    Info_67:
+      Name: -temp_enemy_creature_beatle
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+    Info_68:
+      Name: -temp_enemy_creature_elite_bat
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonking
+        Dependency_3: enemy_elite_skeletonknight
+        Dependency_4: -temp_enemy_creature_bat
+    Info_69:
+      Name: -temp_enemy_creature_slime
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: battlepanel
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonking
+    Info_70:
+      Name: -temp_enemy_creature_test
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: battlepanel
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: -temp_enemy_creature_slime
+    Info_71:
+      Name: enemy_lv2_goblintotem
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_elite_skeletonmaster
+    Info_72:
+      Name: player_fighter_shield
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: playerschoolselection
+        Dependency_3: mat
+        Dependency_4: enemy_boss_goblingiant
+        Dependency_5: enemy_boss_skeletonghost
+        Dependency_6: enemy_boss_skeletonking
+        Dependency_7: enemy_boss_skeletonknight
+        Dependency_8: enemy_elite_goblinarcher
+        Dependency_9: enemy_elite_goblinfighter
+        Dependency_10: enemy_elite_skeletonbomber
+        Dependency_11: enemy_elite_skeletoncoffin
+        Dependency_12: enemy_elite_skeletonknight
+        Dependency_13: -temp_enemy_creature_slime
+        Dependency_14: enemy_lv2_goblintotem
+        Dependency_15: player_fighter_boxer
+        Dependency_16: player_fighter_paladin
+    Info_73:
+      Name: player_fighter_armor
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: playerschoolselection
+        Dependency_3: enemy_boss_goblingiant
+        Dependency_4: enemy_boss_skeletonghost
+        Dependency_5: enemy_boss_skeletonking
+        Dependency_6: enemy_boss_skeletonknight
+        Dependency_7: enemy_elite_goblinarcher
+        Dependency_8: enemy_elite_goblinfighter
+        Dependency_9: enemy_elite_skeletonghost
+        Dependency_10: enemy_elite_skeletonknight
+        Dependency_11: -temp_enemy_creature_slime
+        Dependency_12: player_fighter_shield
+    Info_74:
+      Name: player_fighter_boxer
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: playerschoolselection
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+        Dependency_5: enemy_boss_skeletonknight
+        Dependency_6: enemy_elite_goblinarcher
+        Dependency_7: enemy_elite_goblinfighter
+        Dependency_8: enemy_elite_skeletonbomber
+        Dependency_9: enemy_lv2_skeletonbomber
+        Dependency_10: -temp_enemy_creature_slime
+        Dependency_11: player_fighter_shield
+        Dependency_12: player_fighter_armor
+    Info_75:
+      Name: player_fighter_paladin
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: playerschoolselection
+        Dependency_2: mat
+        Dependency_3: enemy_boss_goblingiant
+        Dependency_4: enemy_boss_skeletonghost
+        Dependency_5: enemy_boss_skeletonking
+        Dependency_6: enemy_boss_skeletonknight
+        Dependency_7: enemy_elite_goblinarcher
+        Dependency_8: enemy_elite_goblinfighter
+        Dependency_9: enemy_elite_skeletonbomber
+        Dependency_10: enemy_elite_skeletoncoffin
+        Dependency_11: enemy_elite_skeletonghost
+        Dependency_12: enemy_elite_skeletonknight
+        Dependency_13: enemy_elite_skeletonmaster
+        Dependency_14: -temp_enemy_creature_slime
+        Dependency_15: enemy_lv2_goblintotem
+        Dependency_16: player_fighter_shield
+        Dependency_17: player_fighter_armor
+        Dependency_18: player_fighter_boxer
+    Info_76:
+      Name: player_saber_ninja
+      Dependencies:
+        Dependency_0: buff
+        Dependency_1: attackinfo
+        Dependency_2: enemy_boss_goblingiant
+        Dependency_3: enemy_boss_skeletonghost
+        Dependency_4: enemy_boss_skeletonking
+        Dependency_5: enemy_boss_skeletonknight
+        Dependency_6: enemy_elite_skeletonarcher
+        Dependency_7: enemy_elite_skeletonbomber
+        Dependency_8: enemy_elite_skeletonghost
+        Dependency_9: enemy_elite_skeletonknight
+        Dependency_10: enemy_lv2_goblintotem
+        Dependency_11: player_fighter_shield
+        Dependency_12: player_fighter_armor
+        Dependency_13: player_fighter_boxer
+    Info_77:
+      Name: player_saber_ronin
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_elite_skeletonarcher
+        Dependency_5: enemy_elite_skeletonbomber
+        Dependency_6: enemy_elite_skeletonghost
+        Dependency_7: enemy_elite_skeletonknight
+        Dependency_8: player_fighter_shield
+        Dependency_9: player_fighter_armor
+        Dependency_10: player_fighter_boxer
+        Dependency_11: player_fighter_paladin
+        Dependency_12: player_saber_ninja
+    Info_78:
+      Name: player_saber_samurai
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_elite_skeletonarcher
+        Dependency_5: enemy_elite_skeletonbomber
+        Dependency_6: enemy_elite_skeletonghost
+        Dependency_7: enemy_elite_skeletonknight
+        Dependency_8: player_fighter_shield
+        Dependency_9: player_fighter_armor
+        Dependency_10: player_fighter_boxer
+        Dependency_11: player_saber_ninja
+        Dependency_12: player_saber_ronin
+    Info_79:
+      Name: player_saber_whirlwind
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_boss_skeletonknight
+        Dependency_5: enemy_elite_skeletonarcher
+        Dependency_6: enemy_elite_skeletonbomber
+        Dependency_7: enemy_elite_skeletonghost
+        Dependency_8: enemy_elite_skeletonknight
+        Dependency_9: player_fighter_shield
+        Dependency_10: player_fighter_armor
+        Dependency_11: player_fighter_boxer
+        Dependency_12: player_saber_ninja
+        Dependency_13: player_saber_ronin
+    Info_80:
+      Name: ui_player_fighter_armor
+      Dependencies:
+        Dependency_0: playerschoolselection
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_elite_goblinarcher
+        Dependency_5: enemy_elite_skeletonarcher
+        Dependency_6: enemy_elite_skeletonbomber
+        Dependency_7: player_fighter_shield
+        Dependency_8: player_fighter_armor
+        Dependency_9: player_saber_ninja
+    Info_81:
+      Name: ui_player_fighter_boxer
+      Dependencies:
+        Dependency_0: playerschoolselection
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_elite_goblinarcher
+        Dependency_4: enemy_elite_skeletonarcher
+        Dependency_5: enemy_elite_skeletonbomber
+        Dependency_6: enemy_lv2_skeletonbomber
+        Dependency_7: player_fighter_shield
+        Dependency_8: player_fighter_armor
+        Dependency_9: player_fighter_boxer
+        Dependency_10: player_saber_ninja
+        Dependency_11: ui_player_fighter_armor
+    Info_82:
+      Name: ui_player_fighter_paladin
+      Dependencies:
+        Dependency_0: playerschoolselection
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_boss_skeletonghost
+        Dependency_3: enemy_boss_skeletonking
+        Dependency_4: enemy_elite_goblinarcher
+        Dependency_5: enemy_elite_skeletonarcher
+        Dependency_6: enemy_elite_skeletonbomber
+        Dependency_7: enemy_elite_skeletonghost
+        Dependency_8: player_fighter_shield
+        Dependency_9: player_fighter_boxer
+        Dependency_10: player_fighter_paladin
+        Dependency_11: player_saber_ninja
+    Info_83:
+      Name: ui_player_saber_ninja
+      Dependencies:
+        Dependency_0: attackinfo
+        Dependency_1: enemy_boss_goblingiant
+        Dependency_2: enemy_elite_skeletonarcher
+        Dependency_3: enemy_elite_skeletonbomber
+        Dependency_4: enemy_elite_skeletonghost
+        Dependency_5: enemy_elite_skeletonknight
+        Dependency_6: player_fighter_boxer
+        Dependency_7: player_saber_ninja
+    Info_84:
+      Name: ui_player_saber_ronin
+      Dependencies:
+        Dependency_0: enemy_boss_goblingiant
+        Dependency_1: enemy_boss_skeletonghost
+        Dependency_2: enemy_boss_skeletonknightshield_tutorial
+        Dependency_3: enemy_elite_skeletonarcher
+        Dependency_4: enemy_elite_skeletonbomber
+        Dependency_5: enemy_elite_skeletonknight
+        Dependency_6: enemy_lv2_goblintotem
+        Dependency_7: player_fighter_shield
+        Dependency_8: player_fighter_armor
+        Dependency_9: player_fighter_paladin
+        Dependency_10: player_saber_ninja
+        Dependency_11: player_saber_ronin
+        Dependency_12: ui_player_fighter_paladin
+    Info_85:
+      Name: ui_player_saber_samurai
+      Dependencies:
+        Dependency_0: enemy_boss_goblingiant
+        Dependency_1: enemy_elite_skeletonarcher
+        Dependency_2: enemy_elite_skeletonbomber
+        Dependency_3: player_saber_ninja
+        Dependency_4: player_saber_samurai
+        Dependency_5: ui_player_saber_ninja
+    Info_86:
+      Name: ui_player_saber_whirlwind
+      Dependencies:
+        Dependency_0: enemy_boss_goblingiant
+        Dependency_1: enemy_elite_skeletonarcher
+        Dependency_2: enemy_elite_skeletonbomber
+        Dependency_3: enemy_elite_skeletonknight
+        Dependency_4: player_saber_ninja
+        Dependency_5: player_saber_whirlwind

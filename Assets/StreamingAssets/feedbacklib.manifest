@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 233411316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2ce6dd583db42230bb6e33a41261170c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72b1b00689cae8893d393e5780f14be4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28068977fda243145813f2b9a7209127, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b9079a5b46cacba4fb8aa611b36a3beb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79ccd2fad80afb4fbd1299e40cab6f9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/ScriptObject_FeedbackLib/MonsterOnHitLibrary_Paladin.asset
+- Assets/AssetsPackage/ScriptObject_FeedbackLib/MonsterOnHitLibrary_Shield.asset
+- Assets/AssetsPackage/ScriptObject_FeedbackLib/MonsterOnHitLibrary.asset
+- Assets/AssetsPackage/ScriptObject_FeedbackLib/MonsterOnHitLibrary_Katana.asset
+- Assets/AssetsPackage/ScriptObject_FeedbackLib/MonsterOnHitLibrary_Boxer.asset
+Dependencies:
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/attackinfo
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_goblingiant
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonghost
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonking
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_boss_skeletonknight
+- B:/UnityProjects/NewUnity/Assets/StreamingAssets/enemy_elite_goblinarcher

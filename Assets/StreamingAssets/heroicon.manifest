@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1645127504
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 738faa8525943cc04aec707b190e3d66
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_Ninja.png
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_Paladin.png
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_Samurai.png
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_WhirlWind.png
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_Boxer.png
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_Shield.png
+- Assets/Arts/Textures/UISprites/HeroIcon/Tex_UI_HeroIcon_Ronin.png
+Dependencies: []

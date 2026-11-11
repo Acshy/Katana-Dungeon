@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a15225eedb3484489b17eb7237d2ba, type: 3}
+  m_Name: Item_Artifact_Attack_Poision
+  m_EditorClassIdentifier: 
+  DefaultUnLock: 1
+  ChapterId: 0
+  LevelId: 0
+  RoomId: 0
+  Icon: {fileID: 21300000, guid: 796263e714a73f4438f4057f97d56839, type: 3}
+  Name: Item_Artifact_Attack_Poision
+  Describe: Item_Artifact_Attack_Poision_Des
+  ItemType: 1
+  ArtifactType: 2
+  CanUseTimes: 0
+  ItemUseType: 0
+  CoolingTime: 0
+  itemColorType: 7
+  isUnique: 1
+  VisualObj: {fileID: 7023464862073394683, guid: 6644ca937de1ab642951259a0091a73e,
+    type: 3}
+  VisualObjSlot: 3
+  effects:
+  - {fileID: 11400000, guid: 7a37c7e00fe2d084194756d544a3157e, type: 2}
+  - {fileID: 11400000, guid: 888dee45043548f4595c80c4caa92d53, type: 2}
