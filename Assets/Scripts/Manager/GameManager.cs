@@ -34,6 +34,12 @@ public class GameManager : MonoBehaviour
      [SerializeField]
     private BreakableObjManager breakableObjManager;
 
+    [Header("Privacy consent")]
+    [SerializeField] private string privacyPolicyUrl;
+    [SerializeField] private string termsOfServiceUrl;
+    [SerializeField] private string privacyPolicyVersion = "1";
+    [SerializeField] private Font privacyFont;
+
     public bool IsInit { get; private set; }
 
 #if TEST_MODE
@@ -61,6 +67,22 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
+    public void OnPrivacyConsentAccepted()
+    {
+        if (!TapTapPrivacyConsentGate.HasCurrentConsent(
+                privacyPolicyVersion, privacyPolicyUrl, termsOfServiceUrl))
+        {
+            Debug.LogWarning("TapTap initialization was skipped because current privacy consent is missing.");
+            return;
+        }
+
+        var sdkCore = GetComponent<KatanaDungeon.ThirdParty.TapTap.TapTapSdkCoreBridge>();
+        if (sdkCore != null)
+        {
+            sdkCore.InitializeAfterPrivacyConsent();
+        }
+    }
+
     private bool allInitOver => 
         LocalizationManger.Inst.IsInit &&
         DataManager.Inst.IsInit ;
@@ -86,6 +108,44 @@ public class GameManager : MonoBehaviour
         {
             yield return null;
         }
+
+        var hasConsent = false;
+#if UNITY_ANDROID && !UNITY_EDITOR
+        const bool allowOfflineContinue = false;
+#else
+        const bool allowOfflineContinue = true;
+#endif
+        yield return TapTapPrivacyConsentGate.Show(
+            privacyPolicyUrl,
+            termsOfServiceUrl,
+            privacyPolicyVersion,
+            privacyFont,
+            allowOfflineContinue,
+            accepted => hasConsent = accepted);
+
+#if UNITY_ANDROID && !UNITY_EDITOR
+        if (!hasConsent)
+        {
+            yield break;
+        }
+
+        OnPrivacyConsentAccepted();
+        var complianceApproved = false;
+        yield return TapTapComplianceStartupGate.WaitForApproval(
+            GetComponent<KatanaDungeon.ThirdParty.TapTap.TapTapSdkCoreBridge>(),
+            GetComponent<TapTapComplianceBridge>(),
+            privacyFont,
+            approved => complianceApproved = approved);
+        if (!complianceApproved)
+        {
+            yield break;
+        }
+#else
+        if (hasConsent)
+        {
+            OnPrivacyConsentAccepted();
+        }
+#endif
 
         procedureManager.StartProcedure(new MainSceneProcedure());
         // EventManager.Inst.DistributeEvent(EventName.OnAppStart);

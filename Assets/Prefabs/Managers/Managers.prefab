@@ -11755,6 +11755,8 @@ GameObject:
   - component: {fileID: 2121379400688973700}
   - component: {fileID: 1781168855}
   - component: {fileID: 327954372}
+  - component: {fileID: 914000004}
+  - component: {fileID: 914000003}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -11809,6 +11811,10 @@ MonoBehaviour:
   timeManager: {fileID: 746168879}
   interactManager: {fileID: 3669721645154041002}
   breakableObjManager: {fileID: 6111756682230740463}
+  privacyPolicyUrl: https://raw.githubusercontent.com/Acshy/Katana-Dungeon/main/PrivacyDocs/privacy.html
+  termsOfServiceUrl: https://raw.githubusercontent.com/Acshy/Katana-Dungeon/main/PrivacyDocs/terms.html
+  privacyPolicyVersion: 1
+  privacyFont: {fileID: 12800000, guid: e92b9a2c257757e47a11ca3af41fe02e, type: 3}
   TestMode: 0
 --- !u!114 &1781168855
 MonoBehaviour:
@@ -11834,6 +11840,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a071062ef3a314349a7bb0071c8709d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &914000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121379400688973703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2c1c2f9c5a4d1680c2de7c4df6e9b1, type: 3}
+  m_Name: ""
+  m_EditorClassIdentifier: ""
+  clientId: "ufuk7tieorgiz40szz"
+  clientToken: "7sGhzpliVeS9wB8Xri4Tk0bLxq2QbemscuNPgoB1"
+  region: 0
+  enableSdkLog: 0
+--- !u!114 &914000004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121379400688973703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec8f59de8b74e51bcd5ab1d3793c985, type: 3}
+  m_Name: ""
+  m_EditorClassIdentifier: ""
 --- !u!1 &2121379400754538906
 GameObject:
   m_ObjectHideFlags: 0
