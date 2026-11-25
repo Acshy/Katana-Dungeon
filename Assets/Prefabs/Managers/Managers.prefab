@@ -11811,8 +11811,8 @@ MonoBehaviour:
   timeManager: {fileID: 746168879}
   interactManager: {fileID: 3669721645154041002}
   breakableObjManager: {fileID: 6111756682230740463}
-  privacyPolicyUrl: https://raw.githubusercontent.com/Acshy/Katana-Dungeon/main/PrivacyDocs/privacy.html
-  termsOfServiceUrl: https://raw.githubusercontent.com/Acshy/Katana-Dungeon/main/PrivacyDocs/terms.html
+  privacyPolicyUrl: https://acshy.github.io/Katana-Dungeon/privacy.html
+  termsOfServiceUrl: https://acshy.github.io/Katana-Dungeon/terms.html
   privacyPolicyVersion: 1
   privacyFont: {fileID: 12800000, guid: e92b9a2c257757e47a11ca3af41fe02e, type: 3}
   TestMode: 0
